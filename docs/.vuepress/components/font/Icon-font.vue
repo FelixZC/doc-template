@@ -4,7 +4,7 @@
   </template>
 </template>
 <script setup>
-  import iconRef from "./icon-ref.js";
-  import { reactive } from "vue";
-  const iconList = reactive(Object.entries(iconRef));
+import iconRef from './icon-ref.js'
+import { reactive } from 'vue'
+const iconList = reactive(Object.entries(iconRef))
 </script>

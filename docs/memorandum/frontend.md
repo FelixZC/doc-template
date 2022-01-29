@@ -4,25 +4,25 @@
 
 <img src="/assets/svg/frontend.svg" width="100%" height='100%'>
 
-## ES6语法
+## ES6 语法
 
-### const和let
+### const 和 let
 
 - 块级作用域的限定
 - 常量的定义
 - 闭包
 
-	- 函数柯里化
-	- 立即调用函数表达式IIFE
-	- 私有变量
+  - 函数柯里化
+  - 立即调用函数表达式 IIFE
+  - 私有变量
 
 ### 字符串的扩展
 
-- Unicode扩展
+- Unicode 扩展
 - 模板字面量
 
-	- 字符串插值
-	-  模板字面量标签函数
+  - 字符串插值
+  - 模板字面量标签函数
 
 ### 对象的解构
 
@@ -30,40 +30,40 @@
 
 ### 正则表达式
 
-- RegExp 构造函数 
+- RegExp 构造函数
 
-	- 正则表达式的修饰符的使用i/g/m/s
+  - 正则表达式的修饰符的使用 i/g/m/s
 
 - RegExp 对象方法
 
-	- compile编译正则表达式
-	- exec检索字符串中指定的值。返回找到的值，并确定其位置
-	- test检索字符串中指定的值。返回 true 或 false
+  - compile 编译正则表达式
+  - exec 检索字符串中指定的值。返回找到的值，并确定其位置
+  - test 检索字符串中指定的值。返回 true 或 false
 
 - String 对象方法
 
-	- search检索与正则表达式相匹配的值
-	- match找到一个或多个正则表达式的匹配
-	- replace替换与正则表达式匹配的子串
+  - search 检索与正则表达式相匹配的值
+  - match 找到一个或多个正则表达式的匹配
+  - replace 替换与正则表达式匹配的子串
 
-		- $1、$2、...、$99	与 regexp 中的第 1 到第 99 个子表达式相匹配的文本。
-		- $&	与 regexp 相匹配的子串。
-		- $`	位于匹配子串左侧的文本。
-		- $'	位于匹配子串右侧的文本。
-		- $$	直接量符号。
+    - $1、$2、...、$99 与 regexp 中的第 1 到第 99 个子表达式相匹配的文本。
+    - $& 与 regexp 相匹配的子串。
+    - $` 位于匹配子串左侧的文本。
+    - $' 位于匹配子串右侧的文本。
+    - $$ 直接量符号。
 
-	- split把字符串分割为字符串数组
+  - split 把字符串分割为字符串数组
 
 - 分组捕获
 
-	- group分组捕获命名
+  - group 分组捕获命名
 
 ### 数值扩展
 
 - 进制表示变更
 - 位运算符
-- Math与Date变更
-- Number的扩展
+- Math 与 Date 变更
+- Number 的扩展
 - BigInt 函数
 
 ### 函数扩展
@@ -71,146 +71,146 @@
 - 箭头函数
 - 参数默认值
 - ...rest 剩余参数展开
-- 函数名称name
+- 函数名称 name
 - 尾调用优化
 
 ### 数组的扩展
 
 - 实例方法
 
-	- push
+  - push
 
-		- 向数组的末尾添加一个或更多元素，并返回新的长度。
+    - 向数组的末尾添加一个或更多元素，并返回新的长度。
 
-	- pop
+  - pop
 
-		- 删除并返回数组的最后一个元素
+    - 删除并返回数组的最后一个元素
 
-	- unshift
+  - unshift
 
-		- 向数组的开头添加一个或更多元素，并返回新的长度。
+    - 向数组的开头添加一个或更多元素，并返回新的长度。
 
-	- shift
+  - shift
 
-		- 删除并返回数组的第一个元素
+    - 删除并返回数组的第一个元素
 
-	- splice
+  - splice
 
-		- 删除元素，并向数组添加新元素。
+    - 删除元素，并向数组添加新元素。
 
-	- slice
+  - slice
 
-		- 从某个已有的数组返回选定的元素
+    - 从某个已有的数组返回选定的元素
 
-	- map
+  - map
 
-		- 子项转化
+    - 子项转化
 
-	- some
+  - some
 
-		- 包含查找
+    - 包含查找
 
-	- filter
+  - filter
 
-		- 过滤
+    - 过滤
 
-	- forEach
+  - forEach
 
-		- 不等于for遍历
+    - 不等于 for 遍历
 
-	- find/findIndex
+  - find/findIndex
 
-		- 子项查找
+    - 子项查找
 
-	- join
+  - join
 
-		- 字符串转化
+    - 字符串转化
 
-	- reverse
+  - reverse
 
-		- 数组反转
+    - 数组反转
 
-	- fill数组填充
-	- includes包含数值比较判断
+  - fill 数组填充
+  - includes 包含数值比较判断
 
 - 原型（静态）方法
 
-	- Array.from
-	- Array.of
-	- Array.isArray
+  - Array.from
+  - Array.of
+  - Array.isArray
 
 - 定型数组
 
-	- ArrayBuffer（预分配内存，所有定型数组及视图引用的基本单位）
+  - ArrayBuffer（预分配内存，所有定型数组及视图引用的基本单位）
 
-		- ElementType
+    - ElementType
 
-	- 字节序
+  - 字节序
 
-		- 大端字节序和小端字节序
+    - 大端字节序和小端字节序
 
-	- DataView（读写 ArrayBuffer 的视图）
+  - DataView（读写 ArrayBuffer 的视图）
 
 ### 对象的扩展
 
 - ...扩展运算符
 - 原型（静态）方法
 
-	- Object.assign
+  - Object.assign
 
-		- 通过复制一个或多个对象来创建一个新的对象。
+    - 通过复制一个或多个对象来创建一个新的对象。
 
-	- Object.create
+  - Object.create
 
-		- 使用指定的原型对象和属性创建一个新对象。
+    - 使用指定的原型对象和属性创建一个新对象。
 
-	- Object.defineProperty
+  - Object.defineProperty
 
-		- 给对象添加一个属性并指定该属性的配置。
+    - 给对象添加一个属性并指定该属性的配置。
 
-	- Object.defineProperties
+  - Object.defineProperties
 
-		- 给对象添加多个属性并分别指定它们的配置。
+    - 给对象添加多个属性并分别指定它们的配置。
 
-	- Object.entries
+  - Object.entries
 
-		- 返回给定对象自身可枚举属性的 [key, value] 数组。
+    - 返回给定对象自身可枚举属性的 [key, value] 数组。
 
-	- Object.freeze
+  - Object.freeze
 
-		- 冻结对象：其他代码不能删除或更改任何属性。
+    - 冻结对象：其他代码不能删除或更改任何属性。
 
-	- Object.getOwnPropertyDescriptor
+  - Object.getOwnPropertyDescriptor
 
-		- 返回对象指定的属性配置。
+    - 返回对象指定的属性配置。
 
-	- Object.getOwnPropertyNames
+  - Object.getOwnPropertyNames
 
-		- 返回一个数组，它包含了指定对象所有的可枚举或不可枚举的属性名。
+    - 返回一个数组，它包含了指定对象所有的可枚举或不可枚举的属性名。
 
-	- Object.keys
+  - Object.keys
 
-		- 返回一个包含所有给定对象自身可枚举属性名称的数组。
+    - 返回一个包含所有给定对象自身可枚举属性名称的数组。
 
-	- Object.values
+  - Object.values
 
-		- 返回给定对象自身可枚举值的数组。
+    - 返回给定对象自身可枚举值的数组。
 
 - 属性描述符
 
-	- 数据描述符
+  - 数据描述符
 
-		- configurable
-		- enumerable
-		- value
-		- writable
+    - configurable
+    - enumerable
+    - value
+    - writable
 
-	- 存取描述符
+  - 存取描述符
 
-		- configurable
-		- enumerable
-		- get
-		- set
+    - configurable
+    - enumerable
+    - get
+    - set
 
 - 属性名省略
 
@@ -218,31 +218,31 @@
 
 ### Symbol
 
--  常用内置符号引用
+- 常用内置符号引用
 
-	- Symbol.iterator等
+  - Symbol.iterator 等
 
-- reflect-metadata元数据的使用
+- reflect-metadata 元数据的使用
 
-### Map与WeakMap
+### Map 与 WeakMap
 
-### Set与WeakSet
+### Set 与 WeakSet
 
-### Proxy代理
+### Proxy 代理
 
 - 提供对象属性拦截操作，双向绑定和数据监测的原理
 - 代理模式的使用
 
-### Reflect反射
+### Reflect 反射
 
-- 与代理配对，解决this指向问题
+- 与代理配对，解决 this 指向问题
 
 ### Generator 生成器
 
 - 星号 与 yield 的使用
-- next与done
+- next 与 done
 
-### Iterator迭代器
+### Iterator 迭代器
 
 - for...in
 - for...of
@@ -251,146 +251,146 @@
 
 ### 异步编程
 
-- Promise期约
+- Promise 期约
 
-	- resolve
-	- reject
-	- all
-	- race
+  - resolve
+  - reject
+  - all
+  - race
 
 - 异步函数
 
-	- async与await
+  - async 与 await
 
-### class类
+### class 类
 
 - 原型与构造器
 - 接口
 - 继承
 
-	- 原型链继承的简化（语法糖）
-	- super
+  - 原型链继承的简化（语法糖）
+  - super
 
 - 静态方法与静态属性
 - get/set
 
-### module模块化
+### module 模块化
 
 - AMD（Asynchronous Module Definition）
 - commonJS
--  ES6 模块 type="module"
+- ES6 模块 type="module"
 
-### decorator装饰器
+### decorator 装饰器
 
 ### 工作者线程
 
 - 专用工作者线程
 - 共享工作者线程
--  服务工作者线程
+- 服务工作者线程
 
 ## BOM
 
-### window对象
+### window 对象
 
-- Global 作用域(window对象)
+- Global 作用域(window 对象)
 - 窗口关系
 
-	- window.parent、window.top 和 window.self
+  - window.parent、window.top 和 window.self
 
 - 窗口位置与像素比
 
-	- screenLeft 和 screenTop
-	- window.devicePixelRatio
+  - screenLeft 和 screenTop
+  - window.devicePixelRatio
 
 - 窗口大小
 
-	- innerWidth、innerHeight、outerWidth 和 outerHeight
-	- clientWidth 和 clientHeight
+  - innerWidth、innerHeight、outerWidth 和 outerHeight
+  - clientWidth 和 clientHeight
 
 - 视口位置
 
-	- scroll
+  - scroll
 
 - 导航与打开新窗口
 
-	- window.open
+  - window.open
 
 - 定时器
 
-	- setTimeout
-	- setInterval
+  - setTimeout
+  - setInterval
 
 - 系统对话框
 
-	- alert、confirm和 prompt
+  - alert、confirm 和 prompt
 
-### location对象
+### location 对象
 
 - 查询字符串
 
-	- location.search
-	- URLSearchParams
+  - location.search
+  - URLSearchParams
 
 - 操作地址
 
-	- location.href
+  - location.href
 
-		- hash、search、hostname、pathname和 port
+    - hash、search、hostname、pathname 和 port
 
-	- location.reload
-	- assign
+  - location.reload
+  - assign
 
-### navigator对象
+### navigator 对象
 
 - 检测插件
 
-	- window.navigator.plugins
+  - window.navigator.plugins
 
 - 注册处理程序
 
-	- navigator.registerProtocolHandler
+  - navigator.registerProtocolHandler
 
 - 客户端检测
--  用户代理检测
-- 软件与硬件检测 
+- 用户代理检测
+- 软件与硬件检测
 
-### screen对象
+### screen 对象
 
-### history对象
+### history 对象
 
 - go
 
-	- back 和 forward
+  - back 和 forward
 
 ## DOM
 
 ### 节点层级
 
-- Node 类型 
+- Node 类型
 
-	- Node.ELEMENT_NODE（1） 
-	- Node.ATTRIBUTE_NODE（2） 
-	- Node.TEXT_NODE（3） 
-	- Node.CDATA_SECTION_NODE（4） 
-	- Node.ENTITY_REFERENCE_NODE（5） 
-	- Node.ENTITY_NODE（6） 
-	- Node.PROCESSING_INSTRUCTION_NODE（7） 
-	- Node.COMMENT_NODE（8） 
-	- Node.DOCUMENT_NODE（9） 
-	- Node.DOCUMENT_TYPE_NODE（10） 
-	- Node.DOCUMENT_FRAGMENT_NODE（11） 
-	- Node.NOTATION_NODE（12）
+  - Node.ELEMENT_NODE（1）
+  - Node.ATTRIBUTE_NODE（2）
+  - Node.TEXT_NODE（3）
+  - Node.CDATA_SECTION_NODE（4）
+  - Node.ENTITY_REFERENCE_NODE（5）
+  - Node.ENTITY_NODE（6）
+  - Node.PROCESSING_INSTRUCTION_NODE（7）
+  - Node.COMMENT_NODE（8）
+  - Node.DOCUMENT_NODE（9）
+  - Node.DOCUMENT_TYPE_NODE（10）
+  - Node.DOCUMENT_FRAGMENT_NODE（11）
+  - Node.NOTATION_NODE（12）
 
 - Document 类型
 - Element 类型
 - Text 类型
-- Comment 类型 
-- CDATASection 类型 
+- Comment 类型
+- CDATASection 类型
 - DocumentType 类型
--  DocumentFragment 类型
--  Attr 类型
+- DocumentFragment 类型
+- Attr 类型
 
-###  MutationObserver 接口 
+### MutationObserver 接口
 
 - 异步回调与记录队列
 - 性能、内存与垃圾回收
@@ -399,91 +399,91 @@
 
 - Selectors API
 
-	- querySelector 
-	- querySelectorAll 
-	- matches
+  - querySelector
+  - querySelectorAll
+  - matches
 
 - 元素遍历
 
-	- childElementCount
-	- firstElementChild
-	- lastElementChild
-	- previousElementSibling
-	- nextElementSibling     
+  - childElementCount
+  - firstElementChild
+  - lastElementChild
+  - previousElementSibling
+  - nextElementSibling
 
 - HTML5
 
-	- getElementsByClassName
+  - getElementsByClassName
 
-		- classList
+    - classList
 
-			- add(value)，向类名列表中添加指定的字符串值 value。如果这个值已经存在，则什么也不做。
-			- contains(value)，返回布尔值，表示给定的 value 是否存在。
-			- remove(value)，从类名列表中删除指定的字符串值 value。
-			- toggle(value)，如果类名列表中已经存在指定的 value，则删除；如果不存在，则添加。
+      - add(value)，向类名列表中添加指定的字符串值 value。如果这个值已经存在，则什么也不做。
+      - contains(value)，返回布尔值，表示给定的 value 是否存在。
+      - remove(value)，从类名列表中删除指定的字符串值 value。
+      - toggle(value)，如果类名列表中已经存在指定的 value，则删除；如果不存在，则添加。
 
-	- 焦点管理
+  - 焦点管理
 
-		- focus
+    - focus
 
-	-  HTMLDocument 扩展
+  - HTMLDocument 扩展
 
-		- readyState
-		- compatMode
-		- head
+    - readyState
+    - compatMode
+    - head
 
-	- 自定义数据属性
+  - 自定义数据属性
 
-		- 前缀 data-
+    - 前缀 data-
 
-	- 插入标记
+  - 插入标记
 
-		- innerHTML
-		- outerHTML
-		- insertAdjacentHTML
-		- insertAdjacentText
+    - innerHTML
+    - outerHTML
+    - insertAdjacentHTML
+    - insertAdjacentText
 
-	- 视野滚动scrollIntoView 
-	- 专有扩展
+  - 视野滚动 scrollIntoView
+  - 专有扩展
 
-		- children
-		- contains
-		-  innerText
-		-  outerText
+    - children
+    - contains
+    - innerText
+    - outerText
 
 ### 样式、遍历与范围
 
 - 样式
 
-	- 存取元素样式
+  - 存取元素样式
 
-		- getComputedStyle
-		- CSSStyleSheet
+    - getComputedStyle
+    - CSSStyleSheet
 
-	- 元素尺寸
+  - 元素尺寸
 
-		- 偏移尺寸
+    - 偏移尺寸
 
-			- offsetHeight，元素在垂直方向上占用的像素尺寸，包括它的高度、水平滚动条高度（如果可见）和上、下边框的高度。
-			- offsetLeft，元素左边框外侧距离包含元素左边框内侧的像素数。
-			- offsetTop，元素上边框外侧距离包含元素上边框内侧的像素数。
-			- offsetWidth，元素在水平方向上占用的像素尺寸，包括它的宽度、垂直滚动条宽度（如果可见）和左、右边框的宽度。
+      - offsetHeight，元素在垂直方向上占用的像素尺寸，包括它的高度、水平滚动条高度（如果可见）和上、下边框的高度。
+      - offsetLeft，元素左边框外侧距离包含元素左边框内侧的像素数。
+      - offsetTop，元素上边框外侧距离包含元素上边框内侧的像素数。
+      - offsetWidth，元素在水平方向上占用的像素尺寸，包括它的宽度、垂直滚动条宽度（如果可见）和左、右边框的宽度。
 
-		- 客户端尺寸
+    - 客户端尺寸
 
-			- clientWidth 内容区宽度加左、右内边距宽度
-			- clientHeight 内容区高度加上、下内边距高度
+      - clientWidth 内容区宽度加左、右内边距宽度
+      - clientHeight 内容区高度加上、下内边距高度
 
-		- 滚动尺寸
+    - 滚动尺寸
 
-			- scrollHeight，没有滚动条出现时，元素内容的总高度。
-			- scrollLeft，内容区左侧隐藏的像素数，设置这个属性可以改变元素的滚动位置。
-			- scrollTop，内容区顶部隐藏的像素数，设置这个属性可以改变元素的滚动位置。
-			- scrollWidth，没有滚动条出现时，元素内容的总宽度
+      - scrollHeight，没有滚动条出现时，元素内容的总高度。
+      - scrollLeft，内容区左侧隐藏的像素数，设置这个属性可以改变元素的滚动位置。
+      - scrollTop，内容区顶部隐藏的像素数，设置这个属性可以改变元素的滚动位置。
+      - scrollWidth，没有滚动条出现时，元素内容的总宽度
 
 - 遍历
 
-	- NodeIterator 和 TreeWalker
+  - NodeIterator 和 TreeWalker
 
 - 范围
 
@@ -491,7 +491,7 @@
 
 ### 事件
 
-- 用户界面事件 
+- 用户界面事件
 - 焦点事件
 - 鼠标和滚轮事件
 - 键盘与输入事件
@@ -508,79 +508,79 @@
 
 ## JavaScript API
 
-###  Atomics 与 SharedArrayBuffer
+### Atomics 与 SharedArrayBuffer
 
--  算术及位操作方法
+- 算术及位操作方法
 
-	- Atomics.add
-	- Atomics.sub
-	- Atomics.or
-	- Atomics.and
-	- Atomics.xor
+  - Atomics.add
+  - Atomics.sub
+  - Atomics.or
+  - Atomics.and
+  - Atomics.xor
 
 - 原子读和写
 
-	- Atomics.load和 Atomics.store
+  - Atomics.load 和 Atomics.store
 
--  原子交换
+- 原子交换
 
-	- exchange 和 compareExchange
+  - exchange 和 compareExchange
 
 - 原子 Futex 操作与加锁
 
-	- Atomics.wait和 Atomics.notify
+  - Atomics.wait 和 Atomics.notify
 
 ### 跨上下文消息
 
-- postMessage方法与message事件
+- postMessage 方法与 message 事件
 - MessageChannel 和 BroadcastChannel
 
 ### Encoding API
 
-- 文本编码 
+- 文本编码
 
-	- TextEncoder
+  - TextEncoder
 
-		- encode
-		- encodeInto
+    - encode
+    - encodeInto
 
-	- TextEncoderStream
+  - TextEncoderStream
 
-		- pipeThrough
+    - pipeThrough
 
 - 文本解码
 
-	- TextDecoder
+  - TextDecoder
 
-		- decode
+    - decode
 
-	- TextDecoderStream
+  - TextDecoderStream
 
-		- pipeThrough
+    - pipeThrough
 
 ### File API 与 Blob API
 
 - FileReader
 
-	- 方法
+  - 方法
 
-		- readAsText(file, encoding)：从文件中读取纯文本内容并保存在 result 属性中。第二个参数表示编码，是可选的
-		- readAsDataURL(file)：读取文件并将内容的数据 URI 保存在 result 属性中。
-		-  readAsBinaryString(file)：读取文件并将每个字符的二进制数据保存在 result 属性中。
-		-  readAsArrayBuffer(file)：读取文件并将文件内容以 ArrayBuffer 形式保存在 result 属性。
+    - readAsText(file, encoding)：从文件中读取纯文本内容并保存在 result 属性中。第二个参数表示编码，是可选的
+    - readAsDataURL(file)：读取文件并将内容的数据 URI 保存在 result 属性中。
+    - readAsBinaryString(file)：读取文件并将每个字符的二进制数据保存在 result 属性中。
+    - readAsArrayBuffer(file)：读取文件并将文件内容以 ArrayBuffer 形式保存在 result 属性。
 
-	- 事件
+  - 事件
 
-		- progress、error 和 load
+    - progress、error 和 load
 
 - FileReaderSync
--  Blob 与部分读取
+- Blob 与部分读取
 
-	- slice
+  - slice
 
 - 对象 URL 与 Blob
 
-	- window.URL.createObjectURL
+  - window.URL.createObjectURL
 
 ### Notifications API
 
@@ -588,119 +588,119 @@
 - 显示和隐藏通知
 - 通知生命周期回调
 
-	-  onshow 在通知显示时触发；
-	-  onclick 在通知被点击时触发；
-	-  onclose 在通知消失或通过 close关闭时触发；
-	-  onerror 在发生错误阻止通知显示时触发。
+  - onshow 在通知显示时触发；
+  - onclick 在通知被点击时触发；
+  - onclose 在通知消失或通过 close 关闭时触发；
+  - onerror 在发生错误阻止通知显示时触发。
 
 ### Page Visibility API
 
 - document.visibilityState
 
-	-  页面在后台标签页或浏览器中最小化了。
-	-  页面在前台标签页中。
-	-  实际页面隐藏了，但对页面的预览是可见的（例如在 Windows 7 上，用户鼠标移到任务栏图标上会显示网页预览）。
-	-  页面在屏外预渲染。
+  - 页面在后台标签页或浏览器中最小化了。
+  - 页面在前台标签页中。
+  - 实际页面隐藏了，但对页面的预览是可见的（例如在 Windows 7 上，用户鼠标移到任务栏图标上会显示网页预览）。
+  - 页面在屏外预渲染。
 
--  visibilitychange 事件，该事件会在文档从隐藏变可见（或反之）时触发。
+- visibilitychange 事件，该事件会在文档从隐藏变可见（或反之）时触发。
 
-	-  "hidden"
-	-  "visible"
-	-  "prerender"
+  - "hidden"
+  - "visible"
+  - "prerender"
 
--  document.hidden 布尔值，表示页面是否隐藏。这可能意味着页面在后台标签页或浏览器中被最小化了。这个值是为了向后兼容才继续被浏览器支持的，应该优先使用 document.visibilityState检测页面可见性。
+- document.hidden 布尔值，表示页面是否隐藏。这可能意味着页面在后台标签页或浏览器中被最小化了。这个值是为了向后兼容才继续被浏览器支持的，应该优先使用 document.visibilityState 检测页面可见性。
 
 ### Streams API
 
-- 可读流ReadableStream
+- 可读流 ReadableStream
 
-	- ReadableStreamDefaultController
+  - ReadableStreamDefaultController
 
-		- controller.enqueue
+    - controller.enqueue
 
-	- ReadableStreamDefaultReader
+  - ReadableStreamDefaultReader
 
-- 可写流WritableStream
+- 可写流 WritableStream
 
-	- WritableStreamDefaultWriter
+  - WritableStreamDefaultWriter
 
-- 转换流TransformStream
+- 转换流 TransformStream
 
-	- transform
+  - transform
 
-- 通过管道连接流pipedStream
+- 通过管道连接流 pipedStream
 
-	- integerStream
+  - integerStream
 
-		- pipeThrough
+    - pipeThrough
 
-			- pipedStream.getReader
+      - pipedStream.getReader
 
-				- pipedStreamDefaultReader
+        - pipedStreamDefaultReader
 
-		- pipeTo
+    - pipeTo
 
 ### 计时 API
 
-- High Resolution Time API 
+- High Resolution Time API
 
-	- window.performance.now
-	- performance.timeOrigin
+  - window.performance.now
+  - performance.timeOrigin
 
-- Performance Timeline API 
+- Performance Timeline API
 
-	- (performance.getEntries
+  - (performance.getEntries
 
-		- PerformanceEntry
+    - PerformanceEntry
 
-			-  PerformanceMark
-			-  PerformanceMeasure
-			-  PerformanceFrameTiming
-			-  PerformanceNavigationTiming
-			-  PerformanceResourceTiming
-			-  PerformancePaintTiming
+      - PerformanceMark
+      - PerformanceMeasure
+      - PerformanceFrameTiming
+      - PerformanceNavigationTiming
+      - PerformanceResourceTiming
+      - PerformancePaintTiming
 
 ### Web 组件
 
 - HTML 模板
 
-	-  DocumentFragment
-	- template标签
+  - DocumentFragment
+  - template 标签
 
 - 影子 DOM
 
-	- attachShadow(shadowRootInit)
-	- 合成与影子 DOM 槽位
+  - attachShadow(shadowRootInit)
+  - 合成与影子 DOM 槽位
 
-		- 命名槽位
+    - 命名槽位
 
 - 自定义元素
 
-	- 升级自定义元素
+  - 升级自定义元素
 
-		- 框架衍生
+    - 框架衍生
 
 ### Web Cryptography API（加密）
 
 - 生成随机数
 
-	- crypto.getRandomValues
+  - crypto.getRandomValues
 
-- 使用 SubtleCrypto对象
+- 使用 SubtleCrypto 对象
 
-	- window.crypto. subtle
+  - window.crypto. subtle
 
 - 数据加密
 
-	- md5
-	- AES
-	- RSA
-	- ECC
-	- HMAC
+  - md5
+  - AES
+  - RSA
+  - ECC
+  - HMAC
 
 ## 错误处理与调试
 
-### 错误处理 
+### 错误处理
 
 - try/catch 语句
 - finally 子句
@@ -708,14 +708,14 @@
 
 ### 错误类型
 
--  Error
--  InternalError
--  EvalError
--  RangeError
--  ReferenceError
--  SyntaxError
--  TypeError
--  URIError
+- Error
+- InternalError
+- EvalError
+- RangeError
+- ReferenceError
+- SyntaxError
+- TypeError
+- URIError
 
 ### 浏览器错误报告
 
@@ -723,23 +723,23 @@
 
 ### 调试技术
 
-- 控制台console
+- 控制台 console
 
-	- error(message)：在控制台中记录错误消息。
-	- info(message)：在控制台中记录信息性内容。
-	- log(message)：在控制台记录常规消息。
-	- warn(message)：在控制台中记录警告消息。
+  - error(message)：在控制台中记录错误消息。
+  - info(message)：在控制台中记录信息性内容。
+  - log(message)：在控制台记录常规消息。
+  - warn(message)：在控制台中记录警告消息。
 
 - 使用 JavaScript 调试器
 
-	- debugger
+  - debugger
 
-		- 单步进入、单步跳过、继续
+    - 单步进入、单步跳过、继续
 
-	- 自定义条件断点
-	- 请求拦截
+  - 自定义条件断点
+  - 请求拦截
 
-- devtools开发者工具
+- devtools 开发者工具
 - 堆栈的执行过程追踪
 - 事件捕获、冒泡
 
@@ -749,23 +749,23 @@
 
 - 坐标系的转化
 
-	- WGS-84坐标系：地心坐标系，GPS原始坐标体系
-	- GCJ-02 坐标系：国测局坐标，火星坐标系
-	- BD-09坐标系:百度中国地图所采用的坐标系，由GCJ-02进行进一步的偏移算法得到。
+  - WGS-84 坐标系：地心坐标系，GPS 原始坐标体系
+  - GCJ-02 坐标系：国测局坐标，火星坐标系
+  - BD-09 坐标系:百度中国地图所采用的坐标系，由 GCJ-02 进行进一步的偏移算法得到。
 
 - 分类
 
-	- Bmap
-	- googleMap
-	- 高德地图
+  - Bmap
+  - googleMap
+  - 高德地图
 
 ### 图表
 
 - echarts
 - 3d
 
-	- d3.js
-	- three.js
+  - d3.js
+  - three.js
 
 ### 排序
 
@@ -777,7 +777,7 @@
 
 ### 工作流流程绘制
 
-- gojs流程图绘制
+- gojs 流程图绘制
 
 ### 通用库
 
@@ -792,7 +792,7 @@
 
 ### markdown
 
--  simplemde-markdown-editor
+- simplemde-markdown-editor
 - tui.editor
 - markdown.it
 
@@ -826,17 +826,17 @@
 
 - mitt
 
-## UI库
+## UI 库
 
 ### 移动端
 
 - vant
-- Weex 
+- Weex
 - uni-app
 - wxui（已过时不再更新维护）
 - iview（已过时不再更新维护）
 
-### web端
+### web 端
 
 - element
 - antd
@@ -856,23 +856,23 @@
 - svn
 - git
 
-	- 提交规范
+  - 提交规范
 
-		- husky
-		- lint-staged
-		- commitizen
+    - husky
+    - lint-staged
+    - commitizen
 
-			- 约定式提交
+      - 约定式提交
 
 ### 规范
 
 - 注释规范
 
-	- Jsdoc
+  - Jsdoc
 
 - 样式规范
 
-	- BEM规范
+  - BEM 规范
 
 ## 三大框架
 
@@ -881,7 +881,7 @@
 - 生命周期
 - vuex
 
-	- 辅助函数
+  - 辅助函数
 
 - vue router
 - 计算属性与侦听属性
@@ -889,95 +889,95 @@
 - 插槽
 - 指令与自定义指令
 - Provide / Inject
-- mixin混合
+- mixin 混合
 
-	- 时代最失败的产物
+  - 时代最失败的产物
 
 - 类语法使用
 
-	- class-vue-component
+  - class-vue-component
 
 - Vue3
 
-	- 组合式 API
-	- Vite
+  - 组合式 API
+  - Vite
 
-		- 新一代模块块打包工具
+    - 新一代模块块打包工具
 
-	- pinia
+  - pinia
 
-		- Vuex替代品
+    - Vuex 替代品
 
-	- typescript的兼容与类型检测
-	- 万恶之源this移除
-	- Teleport传送门
-	- 异步组件
-	- 逻辑关注点分离
+  - typescript 的兼容与类型检测
+  - 万恶之源 this 移除
+  - Teleport 传送门
+  - 异步组件
+  - 逻辑关注点分离
 
-		- 业务逻辑内聚
+    - 业务逻辑内聚
 
-	- hooks
+  - hooks
 
-		- VueUseCode
+    - VueUseCode
 
-	- vue2项目迁移升级(不如直接重构)
+  - vue2 项目迁移升级(不如直接重构)
 
-		- VueCodemod
+    - VueCodemod
 
 - 关注点分离
 
-	- 单文件组件的使用
+  - 单文件组件的使用
 
 - cli
 
-	- vue-cli
-	- nuxt.js
+  - vue-cli
+  - nuxt.js
 
 - 测试
 
-	- 单元测试
+  - 单元测试
 
-		- Jest
-		- Mocha
+    - Jest
+    - Mocha
 
-	- 组件测试
+  - 组件测试
 
-		- Vue Testing Library 
-		- Vue Test Utils
+    - Vue Testing Library
+    - Vue Test Utils
 
-	- 端到端 (E2E，end-to-end) 测试
+  - 端到端 (E2E，end-to-end) 测试
 
-		- Cypress
-		- Nightwatch
-		- Puppeteer
-		- TestCafe
+    - Cypress
+    - Nightwatch
+    - Puppeteer
+    - TestCafe
 
 - vue-devtools
 - 语法校验
 
-	- vetur
-	- volar
+  - vetur
+  - volar
 
 ### react
 
 - 生命周期
-- jsx/tsx的使用
+- jsx/tsx 的使用
 - redux
 - react router
-- hook使用
+- hook 使用
 - react native
 - 函数组件与类组件
 
-	- 渲染函数
+  - 渲染函数
 
 - cli
 
-	- NextJS
-	- Create-React-App
-	- umijs
-	- dvajs
+  - NextJS
+  - Create-React-App
+  - umijs
+  - dvajs
 
-		- graphQL查询语句扩展
+    - graphQL 查询语句扩展
 
 - React Developer
 
@@ -985,21 +985,21 @@
 
 ### 虚拟节点渲染算法
 
-### MVC、MVVM模式
+### MVC、MVVM 模式
 
 ## CSS
 
 ### 优先级计算
 
-### PostCss兼容性处理
+### PostCss 兼容性处理
 
 ### 适配
 
 - 像素单位选择
 
-	- px
-	- em
-	- rem
+  - px
+  - em
+  - rem
 
 ### 布局
 
@@ -1007,7 +1007,7 @@
 - 浮动布局
 - 网格布局
 
-### css原生动画效果
+### css 原生动画效果
 
 - transform
 - transition
@@ -1016,7 +1016,7 @@
 
 ### 伪元素的绘制
 
-### Font文字字体
+### Font 文字字体
 
 - 留意版权问题
 
@@ -1026,17 +1026,17 @@
 - less
 - scss/sass
 
-### 图标iconfont
+### 图标 iconfont
 
 - 常用类型
 
-	- SVG
-	- PNG
+  - SVG
+  - PNG
 
 - 图标库
 
-	- 阿里巴巴图标库
-	- Font Awesome
+  - 阿里巴巴图标库
+  - Font Awesome
 
 ### CSS 函数
 
@@ -1044,7 +1044,7 @@
 
 ### 框架
 
-- Tailwindcss 
+- Tailwindcss
 - WindiCSS
 
 ## H5
@@ -1056,29 +1056,29 @@
 
 ### 媒体元素
 
-- audio和video
+- audio 和 video
 - video sdk
 
-	- vediojs
-	- DPlayer
-	- hls player
+  - vediojs
+  - DPlayer
+  - hls player
 
 ### 原生拖放
 
 - event
 
-	- dragstart
-	- drag
-	- dragend
-	- dragenter
-	- dragover
-	- dragleave 或 drop
-	- dataTransfer 对象
+  - dragstart
+  - drag
+  - dragend
+  - dragenter
+  - dragover
+  - dragleave 或 drop
+  - dataTransfer 对象
 
-		- dropEffect 与 effectAllowed
-		- addElement
-		- clearData
-		- setDragImage
+    - dropEffect 与 effectAllowed
+    - addElement
+    - clearData
+    - setDragImage
 
 ### MathML
 
@@ -1119,14 +1119,14 @@
 
 ### 模块和命名空间
 
-### 引用reference///
+### 引用 reference///
 
 - path
 - type
 
 ### 配置和编译选项
 
-### swigger转typescript类型定义
+### swigger 转 typescript 类型定义
 
 - openapi-typescript
 
@@ -1136,35 +1136,35 @@
 
 ### 嵌入模块
 
-- fs文件系统模块
+- fs 文件系统模块
 
-	- 内容批处理
+  - 内容批处理
 
-- path路径模块
+- path 路径模块
 
-	- 文件批操作
+  - 文件批操作
 
-- os操作系统模块
+- os 操作系统模块
 
-	- 操作系统读取
+  - 操作系统读取
 
-- express服务器请求模块
+- express 服务器请求模块
 
-	- http请求和回应处理
+  - http 请求和回应处理
 
 - 事件模块
 
-	- 事件触发器emitter
+  - 事件触发器 emitter
 
-### process进程
+### process 进程
 
 ### 线程的优先级
 
-### buffer与流处理
+### buffer 与流处理
 
 ### 异常处理
 
-### nestJS服务器部署
+### nestJS 服务器部署
 
 ### TypeORM
 
@@ -1181,155 +1181,155 @@
 
 ### 网络请求与远程资源
 
-- tcp与udp
+- tcp 与 udp
 
-	- tcp
+  - tcp
 
-		- http
+    - http
 
-			-  Accept：浏览器可以处理的内容类型。
-			-  Accept-Charset：浏览器可以显示的字符集。
-			-  Accept-Encoding：浏览器可以处理的压缩编码类型。
-			-  Accept-Language：浏览器使用的语言。
-			-  Connection：浏览器与服务器的连接类型。
-			-  Cookie：页面中设置的 Cookie。
-			-  Host：发送请求的页面所在的域。
-			-  Referer：发送请求的页面的 URI。注意，这个字段在 HTTP 规范中就拼错了，所以考虑到兼容性也必须将错就错。（正确的拼写应该是 Referrer。）
-			-  User-Agent：浏览器的用户代理字符串。
+      - Accept：浏览器可以处理的内容类型。
+      - Accept-Charset：浏览器可以显示的字符集。
+      - Accept-Encoding：浏览器可以处理的压缩编码类型。
+      - Accept-Language：浏览器使用的语言。
+      - Connection：浏览器与服务器的连接类型。
+      - Cookie：页面中设置的 Cookie。
+      - Host：发送请求的页面所在的域。
+      - Referer：发送请求的页面的 URI。注意，这个字段在 HTTP 规范中就拼错了，所以考虑到兼容性也必须将错就错。（正确的拼写应该是 Referrer。）
+      - User-Agent：浏览器的用户代理字符串。
 
-	- udp
+  - udp
 
 - XMLHttpRequest 对象（ajax）
 
-	-  responseText：作为响应体返回的文本。 
-	-  responseXML：如果响应的内容类型是"text/xml"或"application/xml"，那就是包含响应数据的 XML DOM 文档。 
-	-  status：响应的 HTTP 状态。 
-	-  statusText：响应的 HTTP 状态描述。
-	- readyState
+  - responseText：作为响应体返回的文本。
+  - responseXML：如果响应的内容类型是"text/xml"或"application/xml"，那就是包含响应数据的 XML DOM 文档。
+  - status：响应的 HTTP 状态。
+  - statusText：响应的 HTTP 状态描述。
+  - readyState
 
-		-  0：未初始化（Uninitialized）。尚未调用 open方法。
-		-  1：已打开（Open）。已调用 open方法，尚未调用 send方法。
-		-  2：已发送（Sent）。已调用 send方法，尚未收到响应。
-		-  3：接收中（Receiving）。已经收到部分响应。
-		-  4：完成（Complete）。已经收到所有响应，可以使用了。
+    - 0：未初始化（Uninitialized）。尚未调用 open 方法。
+    - 1：已打开（Open）。已调用 open 方法，尚未调用 send 方法。
+    - 2：已发送（Sent）。已调用 send 方法，尚未收到响应。
+    - 3：接收中（Receiving）。已经收到部分响应。
+    - 4：完成（Complete）。已经收到所有响应，可以使用了。
 
-	- timeout超时
-	- overrideMimeType负载类型重写
-	- 进度事件
+  - timeout 超时
+  - overrideMimeType 负载类型重写
+  - 进度事件
 
-		-  load 事件
-		-  progress 事件
+    - load 事件
+    - progress 事件
 
-	- 跨源资源共享（CORS，Cross-Origin Resource Sharing）
+  - 跨源资源共享（CORS，Cross-Origin Resource Sharing）
 
-		- 预检请求（options）
+    - 预检请求（options）
 
-			- 请求
+      - 请求
 
-				-  Origin：与简单请求相同。
-				-  Access-Control-Request-Method：请求希望使用的方法。
-				-  Access-Control-Request-Headers：（可选）要使用的逗号分隔的自定义头部列表。
+        - Origin：与简单请求相同。
+        - Access-Control-Request-Method：请求希望使用的方法。
+        - Access-Control-Request-Headers：（可选）要使用的逗号分隔的自定义头部列表。
 
-			- 响应
+      - 响应
 
-				-  Access-Control-Allow-Origin：与简单请求相同。
-				-  Access-Control-Allow-Methods：允许的方法（逗号分隔的列表）。
-				-  Access-Control-Allow-Headers：服务器允许的头部（逗号分隔的列表）。
-				-  Access-Control-Max-Age：缓存预检请求的秒数。
+        - Access-Control-Allow-Origin：与简单请求相同。
+        - Access-Control-Allow-Methods：允许的方法（逗号分隔的列表）。
+        - Access-Control-Allow-Headers：服务器允许的头部（逗号分隔的列表）。
+        - Access-Control-Max-Age：缓存预检请求的秒数。
 
-		- 凭据请求
+    - 凭据请求
 
-			- withCredentials=true
+      - withCredentials=true
 
-				- Access-Control-Allow-Credentials: true
+        - Access-Control-Allow-Credentials: true
 
-					- 提供凭据（cookie、HTTP 认证和客户端 SSL 证书）
+          - 提供凭据（cookie、HTTP 认证和客户端 SSL 证书）
 
-		- 替代性跨源技术 
+    - 替代性跨源技术
 
-			- 图片探测
-			- JSONP
+      - 图片探测
+      - JSONP
 
--  Fetch API 
+- Fetch API
 
-	-  自定义选项
+  - 自定义选项
 
-		- body
-		- cache
-		- credentials
-		- headers
-		- integrity
-		- keepalive
-		- method
-		- mode
-		- redirect
-		- referrer
-		- referrerPolicy
-		- signal
+    - body
+    - cache
+    - credentials
+    - headers
+    - integrity
+    - keepalive
+    - method
+    - mode
+    - redirect
+    - referrer
+    - referrerPolicy
+    - signal
 
-	- 中断请求
+  - 中断请求
 
-		- AbortController. abort
+    - AbortController. abort
 
-	- Headers 对象
+  - Headers 对象
 
-		- 头部护卫
+    - 头部护卫
 
-			- none
-			- request
-			- request-no-cors
-			- response
-			- immutable
+      - none
+      - request
+      - request-no-cors
+      - response
+      - immutable
 
-	- Request 对象
-	- Response 对象
+  - Request 对象
+  - Response 对象
 
-		- Response.redirect和 Response. error
+    - Response.redirect 和 Response. error
 
-	- Body 混入
+  - Body 混入
 
-		- text
-		- json
-		- formData
-		- arrayBuffer
-		- blob 
+    - text
+    - json
+    - formData
+    - arrayBuffer
+    - blob
 
 - Axios API
--  Beacon API
+- Beacon API
 
-	- navigator.sendBeacon
+  - navigator.sendBeacon
 
--  Web Socket
+- Web Socket
 
-	- new WebSocket
+  - new WebSocket
 
-		- socket
+    - socket
 
-			- event
+      - event
 
-				- socket.onmessage
-				-  open：在连接成功建立时触发。
-				-  error：在发生错误时触发。连接无法存续。
-				-  close：在连接关闭时触发。
+        - socket.onmessage
+        - open：在连接成功建立时触发。
+        - error：在发生错误时触发。连接无法存续。
+        - close：在连接关闭时触发。
 
-			- methods
+      - methods
 
-				- socket.close
-				- socket.send
+        - socket.close
+        - socket.send
 
-			- props
+      - props
 
-				- readyState
+        - readyState
 
 ### 开发文档交互
 
 - swigger
 
-	- 接口文档
+  - 接口文档
 
 - docShow
 
-	- 数据字典
+  - 数据字典
 
 - typora
 - vuepress
@@ -1338,17 +1338,17 @@
 
 - 表单
 
-	- formData扩展
+  - formData 扩展
 
 - JSON
 
-	- JSON.stringify
+  - JSON.stringify
 
-		-  自定义 JSON 序列化替代函数toJSON
+    - 自定义 JSON 序列化替代函数 toJSON
 
-	- JSON.parse
+  - JSON.parse
 
-		-  自定义 JSON 序列化还原函数
+    - 自定义 JSON 序列化还原函数
 
 - blob
 - file
@@ -1357,19 +1357,19 @@
 
 - cookie
 
-	-  document.cookie
+  - document.cookie
 
--  Web Storage
+- Web Storage
 
-	- sessions
-	- localStorage
+  - sessions
+  - localStorage
 
 - IndexedDB
 
-	- 对象存储
-	- 事务
-	- 游标查询
-	- 索引
+  - 对象存储
+  - 事务
+  - 游标查询
+  - 索引
 
 ### 测试工具
 
@@ -1380,7 +1380,7 @@
 ### 安全防护
 
 - token（令牌）限制
-- SSL限制
+- SSL 限制
 
 ## 制图
 
@@ -1398,18 +1398,18 @@
 
 - 静态模型
 
-	- 用例图
-	- 类图
-	- 对象图
-	- 构件图
-	- 部署图
+  - 用例图
+  - 类图
+  - 对象图
+  - 构件图
+  - 部署图
 
 - 动态模型
 
-	- 状态图
-	- 活动图
-	- 顺序图
-	- 协作图
+  - 状态图
+  - 活动图
+  - 顺序图
+  - 协作图
 
 ## 开发工具
 
@@ -1429,7 +1429,7 @@
 
 ### 小程序
 
-### pwa本地缓存
+### pwa 本地缓存
 
 ## 数据模拟
 
@@ -1443,24 +1443,24 @@
 
 - 色彩模式
 
-	- RGBA模式
+  - RGBA 模式
 
-		- hex
+    - hex
 
-			- #ffffff
+      - #ffffff
 
-		- decimal
+    - decimal
 
-			- 255,255,255,1
+      - 255,255,255,1
 
-	- HSL色彩模式
-	- CYMK模式
-	- LAB模式
+  - HSL 色彩模式
+  - CYMK 模式
+  - LAB 模式
 
 - 转换规则
 
-	- 从RGB到HSL或HSV的转换
-	- 从HSL到RGB的转换
+  - 从 RGB 到 HSL 或 HSV 的转换
+  - 从 HSL 到 RGB 的转换
 
 ### 切图
 
@@ -1472,7 +1472,7 @@
 
 ### 记录
 
-- Xmind思维导图
+- Xmind 思维导图
 
 ### 原型
 
@@ -1481,34 +1481,34 @@
 
 ## 工程自动化
 
-### AST抽象语法树（实现原理，与eslint等格式化相同）
+### AST 抽象语法树（实现原理，与 eslint 等格式化相同）
 
 ### 自动化部署
 
 - jenkins
 - gitlab cico
 
-	- gh-pages
+  - gh-pages
 
 - github actions
 - 环境
 
-	- 虚拟机
+  - 虚拟机
 
-		- vmware
+    - vmware
 
-	- docker
-	- 操作系统
+  - docker
+  - 操作系统
 
-		- centOs7/8
+    - centOs7/8
 
-- yaml语法扩展
+- yaml 语法扩展
 
 ### 自动化重构
 
 - jscodeshift
 
-	- codemod
+  - codemod
 
 - posthtml
 - postcss
@@ -1520,13 +1520,13 @@
 
 ### 节流与反抖
 
-### cdn引入
+### cdn 引入
 
 ### 图片加载处理
 
 ### 缓存
 
-### SEO搜索优化
+### SEO 搜索优化
 
 ## 设计模式
 
@@ -1534,37 +1534,37 @@
 
 - 创建型模式
 
-	- 工厂模式（Factory Pattern）
-	- 抽象工厂模式（Abstract Factory Pattern）
-	- 单例模式（Singleton Pattern）
-	- 建造者模式（Builder Pattern）
-	- 原型模式（Prototype Pattern）
+  - 工厂模式（Factory Pattern）
+  - 抽象工厂模式（Abstract Factory Pattern）
+  - 单例模式（Singleton Pattern）
+  - 建造者模式（Builder Pattern）
+  - 原型模式（Prototype Pattern）
 
 - 结构型模式
 
-	- 适配器模式（Adapter Pattern）
-	- 桥接模式（Bridge Pattern）
-	- 过滤器模式（Filter、Criteria Pattern）
-	- 组合模式（Composite Pattern）
-	- 装饰器模式（Decorator Pattern）
-	- 外观模式（Facade Pattern）
-	- 享元模式（Flyweight Pattern）
-	- 代理模式（Proxy Pattern）
+  - 适配器模式（Adapter Pattern）
+  - 桥接模式（Bridge Pattern）
+  - 过滤器模式（Filter、Criteria Pattern）
+  - 组合模式（Composite Pattern）
+  - 装饰器模式（Decorator Pattern）
+  - 外观模式（Facade Pattern）
+  - 享元模式（Flyweight Pattern）
+  - 代理模式（Proxy Pattern）
 
 - 行为型模式
 
-	- 责任链模式（Chain of Responsibility Pattern）
-	- 命令模式（Command Pattern）
-	- 解释器模式（Interpreter Pattern）
-	- 迭代器模式（Iterator Pattern）
-	- 中介者模式（Mediator Pattern）
-	- 备忘录模式（Memento Pattern）
-	- 观察者模式（Observer Pattern）
-	- 状态模式（State Pattern）
-	- 空对象模式（Null Object Pattern）
-	- 策略模式（Strategy Pattern）
-	- 模板模式（Template Pattern）
-	- 访问者模式（Visitor Pattern）
+  - 责任链模式（Chain of Responsibility Pattern）
+  - 命令模式（Command Pattern）
+  - 解释器模式（Interpreter Pattern）
+  - 迭代器模式（Iterator Pattern）
+  - 中介者模式（Mediator Pattern）
+  - 备忘录模式（Memento Pattern）
+  - 观察者模式（Observer Pattern）
+  - 状态模式（State Pattern）
+  - 空对象模式（Null Object Pattern）
+  - 策略模式（Strategy Pattern）
+  - 模板模式（Template Pattern）
+  - 访问者模式（Visitor Pattern）
 
 ### 原则
 
@@ -1579,32 +1579,32 @@
 
 ### 前端基础
 
-- 《CSS权威指南》
-- 《CSS揭秘》
-- 《JavaScript高级程序设计》
-- 《JavaScript语言精粹》
-- 《ES6标准入门》
-- 《你不知道的JS》
-- 《JavaScript权威指南》
+- 《CSS 权威指南》
+- 《CSS 揭秘》
+- 《JavaScript 高级程序设计》
+- 《JavaScript 语言精粹》
+- 《ES6 标准入门》
+- 《你不知道的 JS》
+- 《JavaScript 权威指南》
 
 ### 计算机基础
 
 - 操作系统
 
-	- 《深入理解计算机系统》
-	- 《现代操作系统》
-	- 《Linux UNIX系统编程手册》
-	- 《UNIX环境高级编程》
+  - 《深入理解计算机系统》
+  - 《现代操作系统》
+  - 《Linux UNIX 系统编程手册》
+  - 《UNIX 环境高级编程》
 
 - 计算机网络
 
-	- 《计算机网络自顶向下方法》
-	- 《TCP/IP 详解》
-	- 《UNIX网络编程》
+  - 《计算机网络自顶向下方法》
+  - 《TCP/IP 详解》
+  - 《UNIX 网络编程》
 
 - 编译原理
 
-	- 《编译原理》
+  - 《编译原理》
 
 ### 算法和数据结构
 
@@ -1615,8 +1615,7 @@
 
 ### 额外扩展
 
-- 《数据结构（C语言版）》
+- 《数据结构（C 语言版）》
 - 《数据库系统概论》
-- 《图解XX》
+- 《图解 XX》
 - 《Pro Git》
-

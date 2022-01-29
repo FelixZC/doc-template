@@ -4,4 +4,4 @@
 
 | 项目地址  | 项目名称 | 前端部署时间        | 后端部署时间        |
 | --------- | -------- | ------------------- | ------------------- |
-| 127.0.0.1 | xxxx | xxxx-xx-xx xx:xx:xx | xxxx-xx-xx xx:xx:xx |
+| 127.0.0.1 | xxxx     | xxxx-xx-xx xx:xx:xx | xxxx-xx-xx xx:xx:xx |

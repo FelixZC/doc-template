@@ -6,6 +6,8 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
+    "lint:eslint": "eslint --fix docs/**/*.{js,jsx,ts,tsx}",
+    "lint:prettier": "prettier --write docs/**/*.{js,jsx,ts,tsx,md}",
     "lint:lint-staged": "lint-staged",
     "prepare": "husky install"
   },

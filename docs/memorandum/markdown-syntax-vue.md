@@ -51,7 +51,7 @@ const bar = 'bar'
 
 ```js
 export default {
-  name: 'MyComponent',
+  name: 'MyComponent'
   // ...
 }
 ```
