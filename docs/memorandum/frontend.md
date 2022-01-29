@@ -757,13 +757,14 @@
 
 	- Bmap
 	- googleMap
+	- 高德地图
 
 ### 图表
 
 - echarts
 - 3d
 
-	- d3
+	- d3.js
 	- three.js
 
 ### 排序
@@ -861,6 +862,8 @@
 		- lint-staged
 		- commitizen
 
+			- 约定式提交
+
 ### 规范
 
 - 注释规范
@@ -889,6 +892,10 @@
 - mixin混合
 
 	- 时代最失败的产物
+
+- 类语法使用
+
+	- class-vue-component
 
 - Vue3
 
@@ -921,10 +928,10 @@
 
 	- 单文件组件的使用
 
-- cli脚手架的运用
+- cli
 
-	- loader
-	- 插件
+	- vue-cli
+	- nuxt.js
 
 - 测试
 
@@ -945,6 +952,12 @@
 		- Puppeteer
 		- TestCafe
 
+- vue-devtools
+- 语法校验
+
+	- vetur
+	- volar
+
 ### react
 
 - 生命周期
@@ -956,6 +969,17 @@
 - 函数组件与类组件
 
 	- 渲染函数
+
+- cli
+
+	- NextJS
+	- Create-React-App
+	- umijs
+	- dvajs
+
+		- graphQL查询语句扩展
+
+- React Developer
 
 ### angular
 
@@ -1033,6 +1057,11 @@
 ### 媒体元素
 
 - audio和video
+- video sdk
+
+	- vediojs
+	- DPlayer
+	- hls player
 
 ### 原生拖放
 
@@ -1068,6 +1097,8 @@
 - yarn
 - cnpm
 
+### gulp
+
 ## TypeScript
 
 ### 类权限修饰符
@@ -1098,6 +1129,8 @@
 ### swigger转typescript类型定义
 
 - openapi-typescript
+
+### 内置类型
 
 ## Node
 
@@ -1139,6 +1172,10 @@
 
 - 堆栈
 - 队列
+
+### cli
+
+- koa
 
 ## 前后端交互
 
@@ -1449,6 +1486,23 @@
 ### 自动化部署
 
 - jenkins
+- gitlab cico
+
+	- gh-pages
+
+- github actions
+- 环境
+
+	- 虚拟机
+
+		- vmware
+
+	- docker
+	- 操作系统
+
+		- centOs7/8
+
+- yaml语法扩展
 
 ### 自动化重构
 
@@ -1459,10 +1513,6 @@
 - posthtml
 - postcss
 - babel
-
-### 自动化发布工具
-
-- gh-pages
 
 ## 优化
 

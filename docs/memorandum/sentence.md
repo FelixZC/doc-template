@@ -7684,3 +7684,78 @@ malloc可能会过量分配内存，其他进程可能在当前进程之前获�
 
 > 2562. **She went for a long walk to work up an appetite.**  
 她为了增加食欲散了很长时间的步。
+
+> 2563. **I perceived a change in his behaviour over those months.**  
+我注意到他的举止在那几个月里有些改变
+
+> 2564. **She perceived that all was not well.**  
+她意识到并非一切都顺利。
+
+> 2565. **It's still extremely difficult to get tenure.**  
+要取得终身职位仍然极其困难。
+
+> 2566. **The prose of his official communications was so laboured, pompous and verbose**  
+他笔下的公文矫揉浮华，长篇大论。
+
+> 2567. **She became a leading promoter of European integration.**  
+她成为欧洲一体化的主要支持者。
+
+> 2568. **Leverage is used in many fields.**  
+杠杆作用在许多领域里得到应用。
+
+> 2569. **When it comes to integrating their transport systems, the French don't miss a trick.**  
+法国人从不放过任何整合其交通系统的机会。
+
+> 2570. **The group is having to metamorphose from a loose collection of businesses into a fully integrated multinational**  
+该集团将不得不由一个松散的企业联合组织转变成一个全面整合的跨国集团。
+
+> 2571. **The different purposes make the different integrations approaches.**  
+两种不同的目的产生了两种不同的整合方式。
+
+> 2572. **Finally the core technology innovation promotion measures based on technology integrations are provided. 5.**  
+最后提出基于整合视角的大型集团企业核心技术创新能力提升路径。
+
+> 2573. **The company says it is in full compliance with US labor laws**  
+这家公司说自己严格遵守美国的各项劳工法。
+
+> 2574. **The country needs a defence capability as insurance against the unexpected.**  
+国家需要有一定的防御能力，以应对不可预知的情况。
+
+> 2575. **Using this script, you can create a basic weapons chart with an integrated damage calculator.**  
+使用此脚本，您可以用集成的破坏力计算器创建基本武器图。
+
+> 2576. **They typically carry financial burdens that outweigh those of their peers, are more likely to work while attending school, and often require significant academic remediation.**  
+他们通常背负着比同龄人更沉重的经济负担，更有可能在上学期间工作，并且经常需要大量补习。
+
+> 2577. **It's been known that various bacteria and fungi can help in environmental remediation.**  
+众所周知，种类繁多的细菌和真菌能帮助改善环境。
+
+> 2578. **Three of them were killed in the subsequent encounter with the police.**  
+他们中有三个人在后来与警察的冲突中被杀死。
+
+> 2579. **"If they're anywhere near worth their salt as engineers, I bet they're rethinking their threat model as we speak," said Jonathan Zdziarski, a digital forensic expert who studies the iPhone and its vulnerabilities.**  
+“如果这些工程师称职的话，我打赌，他们现在正重新思量威胁模型，”研究iPhone及其安全缺陷的数字专家乔纳森·兹阿尔斯基说道。
+
+> 2580. **There was saturation coverage of the event by the media.**  
+媒体对这一事件做了连篇累牍的报道。
+
+> 2581. **Present situation and its future of the fabric fuzzing and pilling study**  
+织物起毛起球研究现状分析与展望
+
+> 2582. **Study on the Fuzzing and Pilling Performance of Milk Protein Fiber Knitted Fabrics**  
+牛奶蛋白纤维针织产品起毛起球性能研究
+
+> 2583. **Their ultimate aim was a market economy for Hungary**  
+他们最终的目标是为匈牙利建立起市场经济体制。
+
+> 2584. **And they must learn how to capitalize on the movement's benefits, such as opportunities for more citations and a way to build a reputation without the need for conventional metrics, such as publication in high-impact journals.**  
+他们也必须学会如何充分利用这项运动的益处，比如更多引用的机会和无需常规指标就可建立良好的声誉，如在重大影响力的期刊上发表文章。
+
+> 2585. **The US military wants to avoid the graduated escalation that marked the Vietnam War.**  
+美国军方希望避免出现类似于越南战争那样逐步升级的态势。
+
+> 2586. **Any unexpected circumstance that arises may catalyze a sudden escalation of violence.**  
+任何突如其来的情况都可能造成暴力骤然升级。
+
+> 2587. **They'd pulled the registry office down which then left an open space**  
+他们拆掉户籍登记处后，那里留下了一片空地。
