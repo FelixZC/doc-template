@@ -1,85 +1,93 @@
 module.exports = {
   navbar: [
-    { text: '首页', link: '/' },
-    { text: 'Bing一下，你就知道', link: 'https://cn.bing.com/', target: '_blank', rel: '' }
+    {
+      link: '/',
+      text: '首页'
+    },
+    {
+      link: 'https://cn.bing.com/',
+      rel: '',
+      target: '_blank',
+      text: 'Bing一下，你就知道'
+    }
   ],
   sidebar: [
     {
-      text: '返回码',
-      link: '/http-code/index.md'
+      link: '/http-code/index.md',
+      text: '返回码'
     },
     {
-      text: '记录',
       children: [
         {
-          text: '改动',
-          link: '/record/modify-record.md'
+          link: '/record/modify-record.md',
+          text: '改动'
         },
         {
-          text: '部署',
-          link: '/record/deploy-record.md'
+          link: '/record/deploy-record.md',
+          text: '部署'
         }
-      ]
+      ],
+      text: '记录'
     },
     {
-      text: '接口',
       children: [
         {
-          text: '接口示例',
-          link: '/interface/template.md'
+          link: '/interface/template.md',
+          text: '接口示例'
         }
-      ]
+      ],
+      text: '接口'
     },
     {
-      text: '数据字典',
       children: [
         {
-          text: '字典模板',
-          link: '/data-dictionary/template.md'
+          link: '/data-dictionary/template.md',
+          text: '字典模板'
         },
         {
-          text: 'global全局变量说明',
-          link: '/data-dictionary/global.md'
+          link: '/data-dictionary/global.md',
+          text: 'global全局变量说明'
         }
-      ]
+      ],
+      text: '数据字典'
     },
     {
-      text: '备忘',
       children: [
         {
-          text: '表情库',
-          link: '/memorandum/icon-font.md'
+          link: '/memorandum/icon-font.md',
+          text: '表情库'
         },
         {
-          text: 'Markdown语法',
-          link: '/memorandum/markdown-syntax.md'
+          link: '/memorandum/markdown-syntax.md',
+          text: 'Markdown语法'
         },
         {
-          text: 'Markdown语法Vue版',
-          link: '/memorandum/markdown-syntax-vue.md'
+          link: '/memorandum/markdown-syntax-vue.md',
+          text: 'Markdown语法Vue版'
         },
         {
-          text: '前端知识体系总结',
-          link: '/memorandum/frontend.md'
+          link: '/memorandum/frontend.md',
+          text: '前端知识体系总结'
         },
         {
-          text: '收藏夹',
-          link: '/memorandum/bookmarks.md'
+          link: '/memorandum/bookmarks.md',
+          text: '收藏夹'
         },
         {
-          text: '每日n句',
-          link: '/memorandum/sentence.md'
+          link: '/memorandum/sentence.md',
+          text: '每日n句'
         }
-      ]
+      ],
+      text: '备忘'
     },
     {
-      text: '测试',
       children: [
         {
-          text: '组件测试',
-          link: '/test/markdown-and-vue-sfc.md'
+          link: '/test/markdown-and-vue-sfc.md',
+          text: '组件测试'
         }
-      ]
+      ],
+      text: '测试'
     }
   ]
 }
