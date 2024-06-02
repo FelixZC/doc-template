@@ -5,10 +5,34 @@ module.exports = {
       text: '首页'
     },
     {
+      link: 'https://www.baidu.com/',
+      rel: '',
+      target: '_blank',
+      text: '百度'
+    },
+    {
       link: 'https://cn.bing.com/',
       rel: '',
       target: '_blank',
-      text: 'Bing一下，你就知道'
+      text: '必应'
+    },
+    {
+      link: 'https://www.tiangong.cn/',
+      rel: '',
+      target: '_blank',
+      text: '天工AI'
+    },
+    {
+      link: 'https://tongyi.aliyun.com/qianwen/',
+      rel: '',
+      target: '_blank',
+      text: '通义千问'
+    },
+    {
+      link: 'https://kimi.moonshot.cn/',
+      rel: '',
+      target: '_blank',
+      text: 'KIMI'
     }
   ],
   sidebar: [
@@ -64,18 +88,6 @@ module.exports = {
         {
           link: '/memorandum/markdown-syntax-vue.md',
           text: 'Markdown语法Vue版'
-        },
-        {
-          link: '/memorandum/frontend.md',
-          text: '前端知识体系总结'
-        },
-        {
-          link: '/memorandum/bookmarks.md',
-          text: '收藏夹'
-        },
-        {
-          link: '/memorandum/sentence.md',
-          text: '每日n句'
         }
       ],
       text: '备忘'

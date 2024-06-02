@@ -7,7 +7,7 @@ module.exports = {
   bundlerConfig: {
     // vite打包工具的选项
   },
-  description: '文档模板，持续更新ing...',
+  description: '文档模板',
   markdown: {
     importCode: {
       // str.replace(/^@src/, path.resolve(__dirname, 'path/to/src')),
